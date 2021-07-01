@@ -1,9 +1,14 @@
-body {
-  height: 85vh;
-  background-image: url("Images/oriental.png");
-  background-position: center;
-  position: relative;
-  font-family: "MedievalSharp", cursive;
+@font-face { 
+ font-family: AnglicanText; 
+ src: url("AnglicanText.ttf") format("truetype"); 
+} 
+
+body { 
+ height: 85vh; 
+ background-image: url("Images/oriental.png"); 
+ background-position: center; 
+ position: relative; 
+ font-family: 'Petit Formal Script', cursive;
 }
 
 p {
@@ -18,9 +23,9 @@ p {
   margin-top: 100px;
 }
 
-.mainTag {
-  color: #000;
-  font-weight: bolder;
+.mainTag { 
+ color: #000; 
+ font-family: "AnglicanText"; 
 }
 
 .welcome {
